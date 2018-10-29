@@ -5,9 +5,13 @@ header{
     height: 700px;
     left: 0px;
     top: 0px;
-
+    background: url(../images/headbackground.png);
 
 }
+
+
+
+/*-------------------*/
 section{
 
 
@@ -133,7 +137,7 @@ footer{
 
     background: url(../images/image1.png);
 }
-.dreamshare{
+.logo-text{
 
     position: absolute;
     width: 119px;
@@ -289,6 +293,7 @@ footer{
     height: 700px;
     left: 0px;
     top: 0px;
+    background-repeat: no-repeat;
 }
 .background-bitmap{
     position: absolute;
