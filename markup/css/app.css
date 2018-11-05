@@ -1,24 +1,218 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
 header{
 
-    position: absolute;
-    width: 1440px;
+    /*position: absolute;*/
+    width: 100%;
     height: 700px;
-    left: 0px;
+    right: 0px;
     top: 0px;
-    background: url(../images/headbackground.png);
+    background: url(../images/headbackground.png) no-repeat center;
+    background-size: cover;
+    color: #FFFFFF;
 
 }
+ul{
+    list-style: none;
+}
+div.login>ul {
+    width: 152px;
+    height: 100px;
+    left: 248px;
+    top: 45px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.login{
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.align-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.font-perf{
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.login-btn{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+    height: 36px;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.login-btn a {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+    color: inherit;
+    text-align: center;
+
+}
+.header-top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 223.5px;/*todo ???8*/
+    padding: 40px;
+}
+.logo-wrapper{
+    /*position: absolute;*/
+    width: 152px;
+    height: 25px;
+    left: 248px;
+    top: 45px;
+}
+.logo-text{
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+.btn{
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 0;
+    text-align: center;
+    vertical-align:middle;
+}
+.signup-btn{
 
 
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 0;
+    text-align: center;
+    vertical-align:middle;
+}
+.border-btn{
+    border: 2px solid ;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.banner-bottom{
+    width: 470px;
+    height: auto;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.header-title{
+    width: 470px;
+    height: 127px;
 
+}
+.header-font{
+
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 52px;
+
+    text-transform: uppercase;
+}
+.red-btn{
+    background: #FF4E50;
+}
+/*todo*/
+.perf-btn{
+    width: 225px;
+    height: 40px;
+    background: #FF4E50;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin: auto;
+}
+.see-other-btn{
+    width: 180px;
+    height: 40px;
+    margin: auto;
+    border-color: #FF4E50;
+    color: #FF4E50;
+}
+.label1{
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 22px;
+    text-align: center;
+}
+.placeholder-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.placeholder-wrapper-flow{
+    width: 1260px;
+    flex-wrap: wrap;
+    display:flex;
+    justify-items: center;
+    align-items: center;
+
+    padding: 0;
+}
+.step{
+    width: 300px;
+    height: 400px;
+
+    margin: 10px;
+}
+.how-it-works{
+    margin-top: 50px;
+}
+.portrait{
+    width: 122px;
+    height: 122px;
+
+    margin: 10px;
+}
+.activity-photo1{
+    width: 300px;
+    height: 310px;
+    background:gray;
+    margin: 10px;
+}
+.activity-photo2{
+    width: 620px;
+    height: 310px;
+    background: gray;
+    margin: 10px;
+}
 /*-------------------*/
-section{
 
-
-}
 footer{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 228.6px;
     left: 0px;
     top: 3191px;
@@ -26,321 +220,3 @@ footer{
 
 }
 
-.how-it-works{
-
-    position: absolute;
-    width: 940px;
-    height: 462px;
-    left: 250px;
-    top: 794px;
-
-
-
-}
-.meet-partner{
-    position: absolute;
-    width: 941px;
-    height: 362px;
-    left: 249px;
-    top: 1350px;
-
-
-}
-
-.ideas{
-    position: absolute;
-    width: 940px;
-    height: 1032px;
-    left: 250px;
-    top: 1806px;
-
-
-}
-.interests{
-    position: absolute;
-    width: 481.12px;
-    height: 159px;
-    left: 478px;
-    top: 2932px;
-
-
-}
-.about{
-
-    position: absolute;
-    width: 114px;
-    height: 156px;
-    left: 490px;
-    top: 3263.6px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 26px;
-    font-size: 14px;
-
-    color: #999999;
-}
-.partners{
-    position: absolute;
-    width: 64px;
-    height: 18px;
-    left: 729px;
-    top: 3230px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 14px;
-
-    color: #444444;
-}
-.company{
-    position: absolute;
-    width: 70px;
-    height: 18px;
-    left: 490px;
-    top: 3230px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 14px;
-
-    color: #444444;
-}
-
-.designed-by{
-    position: absolute;
-    width: 83px;
-    height: 13px;
-    left: 1110px;
-    top: 3230px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 10px;
-    letter-spacing: 1px;
-
-    color: #CCCCCC;
-}
-.bitmap{
-    position: absolute;
-    width: 110px;
-    height: 24px;
-    left: 1080px;
-    top: 3250px;
-
-    background: url(../images/image1.png);
-}
-.logo-text{
-
-    position: absolute;
-    width: 119px;
-    height: 20px;
-    left: 249px;
-    top: 3229px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 16px;
-
-    color: #FF4E50;
-}
-
-.rectangle{
-
-    position: absolute;
-    width: 1440px;
-    height: 2px;
-    left: 0px;
-    top: 3191px;
-
-    background: #FF4E50;
-}
-
-/*Header-style*/
-.find-your-holiday-pa{
-
-    position: absolute;
-    width: 187px;
-    height: 18px;
-    left: 627.5px;
-    top: 447px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 14px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-.perfect{
-
-    position: absolute;
-    width: 396px;
-    height: 25px;
-    left: 522px;
-    top: 378px;
-
-    font-family: Roboto;/*todo invisible*/
-    font-style: normal;
-    font-weight: 300;
-    line-height: 24px;
-    font-size: 24px;
-    text-align: center;
-
-    color: #F7F3F2;
- }
-.rectangle-3-copy{
-
-    position: absolute;
-    width: 225px;
-    height: 40px;
-    left: 608px;
-    top: 436px;
-
-    background: #FF4E50;
-
-}
-.rectangle-3{
-
-    position: absolute;
-    width: 90px;
-    height: 36px;
-    left: 1059px;
-    top: 40px;
-
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 40px;
-}
-.sign-up{
-
-    position: absolute;
-    width: 55px;
-    height: 18px;
-    left: 1077px;
-    top: 49px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 14px;
-
-    color: #FFFFFF;
-}
-.log-in{
-    position: absolute;
-    width: 44px;
-    height: 18px;
-    left: 996px;
-    top: 49px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 14px;
-
-    color: #FFFFFF;
-}
-.dreamshare{
-
-    position: absolute;
-    width: 152px;
-    height: 25px;
-    left: 248px;
-    top: 45px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 20px;
-
-    color: #FFFFFF;
-}
-.share-you{
-
-    position: absolute;
-    width: 470px;
-    height: 127px;
-    left: 485px;
-    top: 223.5px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 52px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-.background{
-    position: absolute;
-    width: 1440px;
-    height: 700px;
-    left: 0px;
-    top: 0px;
-    background-repeat: no-repeat;
-}
-.background-bitmap{
-    position: absolute;
-    width: 1458px;
-    height: 911px;
-    left: -9px;
-    top: -26px;
-    background: url(../images/headbackground.png);
-    mix-blend-mode: normal;
-    opacity: 0.8;
-}
-.mask-copy{
-    position: absolute;
-    width: 1440px;
-    height: 700px;
-    left: 0px;
-    top: 0px;
-
-    background: linear-gradient(360deg, #FF4E50 0%, #F9D423 100%);
-    mix-blend-mode: normal;
-}
-.mask-copy2{
-    position: absolute;
-    width: 1440px;
-    height: 700px;
-    left: 0px;
-    top: 0px;
-
-    background: linear-gradient(360deg, #FF4E50 0%, #F9D423 100%);
-    mix-blend-mode: normal;
-    opacity: 0.1;
-}
-.object{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-
-}
-.mask{
-
-    position: absolute;
-    width: 1440px;
-    height: 700px;
-    left: 0px;
-    top: 0px;
-
-    background: #000000;
-}
