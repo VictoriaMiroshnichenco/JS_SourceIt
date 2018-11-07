@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <title>DREAM</title>
 	<link rel="stylesheet" href="./css/app.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 <!--  Style is deprecated <style>
     @import "./css/app.css" screen;
@@ -12,7 +12,7 @@
   </style>-->
 </head>
 <body>
-<<div id="wrapper">
+<div id="wrapper">
 
 
 <header>
@@ -35,6 +35,7 @@
         <div class="perf-btn align-center font-perf"><a  href="#">Find your holiday partner</a></div>
     </div>
 </header>
+</div>
 <main>
     <div class="how-it-works">
         <p class="label1">How Dreamshare works?</p>
@@ -53,27 +54,59 @@
         <p class="label1">Meet a partner for your best holiday</p>
     </div>
     <ul class="placeholder-wrapper">
-        <li class="portrait"><img src="./images/Photo1.jpg"></li>
-        <li class="portrait"><img src="./images/Photo2.jpg" ></li>
-        <li class="portrait"><img src="./images/Photo3.jpg" ></li>
-        <li class="portrait"><img src="./images/Photo4.jpg" ></li>
+        <li class="portrait"><img src="./images/Photo1.jpg"alt=""/> </li>
+        <li class="portrait"><img src="./images/Photo2.jpg" alt=""/></li>
+        <li class="portrait"><img src="./images/Photo3.jpg" alt=""/></li>
+        <li class="portrait"><img src="./images/Photo4.jpg" alt=""/></li>
     </ul>
     <div class="border-btn align-center see-other-btn font-perf"><a  href="#">See other partners</a></div>
     <div class="ideas">
         <p class="label1">Discover holiday activity ideas</p>
     </div>
-    <ul class="placeholder-wrapper-flow">
-        <li class="activity-photo1">1</li>
-        <li class="activity-photo1">2</li>
-        <li class="activity-photo1">3</li>
-        <li class="activity-photo1">4</li>
-        <li class="activity-photo2">5</li>
-        <li class="activity-photo2">6</li>
-        <li class="activity-photo1">7</li>
+    <div class = "align-center " style="background: red">
+    <ul class="placeholder-wrapper-flow" style="background: pink">
+        <li class="activity-photo1">
+            <img src="images/Act1_Sports.jpg" alt=""/>
+            <h6>Sport and Activities</h6>
+        </li>
+        <li class="activity-photo1">
+            <img src="images/Act_Healath.jpg" alt=""/>
+            <h6>Wellness and Health</h6>
+        </li>
+        <li class="activity-photo1">
+            <img src="images/Act_Extreme.jpg" alt=""/>
+            <h6>Extreme Sports and Expeditions</h6>
+        </li>
+        <li class="activity-photo1">
+            <img src="images/Act_Games.jpg" alt=""/>
+            <h6>Games</h6>
+        </li>
+        <li class="activity-photo2">
+            <img src="images/Act_Culture.jpg" alt=""/>
+            <h6>Culture and Education</h6>
+        </li>
+
+        <li class="activity-photo2">
+            <img src="images/Act_Relax.jpg">
+            <h6>Enjoyment and Relaxation</h6>
+        </li>
+        <li class="activity-photo1">
+            <img src="images/Act_Traveling.jpg">
+            <h6>Travelling</h6>
+        </li>
 
     </ul>
+    </div >
     <div class="interests">
-        <p class="label1">Create your holiday activity</p>
+        <h3>Create your holiday activity</h3>
+        <h5>Hi! What are your holiday interests?</h5>
+        <div class="align-center">
+            <form action="#">
+                <input type="text" class="search-field" placeholder="Enter your interests">
+                <button class="search-btn">Search partners</button>
+
+            </form>
+        </div>
     </div>
 
 </main>
