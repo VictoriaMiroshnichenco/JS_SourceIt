@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    alert("ss");
+    let str = "Hello";
+
+    // Делает то же, что и
+    // for (var letter of str) alert(letter);
+    let st;
+    let stringIterator = str[Symbol.iterator]();
+   // alert(stringIterator.next().value);
+    while (st=stringIterator.next().value) {
+        console.log(st);
+    }
+</script>
+</body>
+</html>
