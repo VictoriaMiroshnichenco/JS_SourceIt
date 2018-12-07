@@ -6,17 +6,13 @@
 </head>
 <body>
 <script>
-    alert("ss");
-    let str = "Hello";
 
-    // Делает то же, что и
-    // for (var letter of str) alert(letter);
-    let st;
-    let stringIterator = str[Symbol.iterator]();
-   // alert(stringIterator.next().value);
-    while (st=stringIterator.next().value) {
-        console.log(st);
-    }
+    //window.showModalDialog("https://forums.asp.net/t/1517503.aspx?window+showModalDialog+size+",null,"dialogHeight:250px;dialogWidth:850px") ;
+  // let dialog = window.showModalDialog();
+    alert(window.screen.height);
+    var opt = 'dialogWidth:100%; dialogHeight:100%; center:yes; scroll:no; status:no';
+    var popup = window.showModalDialog('https://forums.asp.net', window, opt);
+    console.log(popup);
 </script>
 </body>
 </html>
